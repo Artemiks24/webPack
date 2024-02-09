@@ -1,7 +1,18 @@
-import React from 'react'
+import { useState } from 'react'
+import './App.scss'
 
 export const App = () => {
+
+    const [count, setCount] = useState<number>(0)
+
+    const handleClick = () => {
+        setCount((prev => prev + 1))
+    }
     return (
-        <div>Appddd</div>
+        <>
+            <h1>{count}</h1>
+            <button onClick={handleClick}>inc</button>
+
+        </>
     )
 }
