@@ -1,0 +1,1 @@
+{"version":3,"file":"css/main.42485f6f.css","mappings":"AAAA,UACI,uBACA,a","sources":["webpack://webpack/./src/Components/App.module.scss"],"sourcesContent":[".button {\r\n    background-color: green;\r\n    padding: 20px;\r\n}\r\n"],"names":[],"sourceRoot":""}

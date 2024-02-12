@@ -1,0 +1,1 @@
+{"version":3,"file":"876.7bb62f52b7ac87503007.js","mappings":"2IACe,SAASA,IACpB,OAAQ,SAAK,KAAM,CAAEC,SAAU,QACnC,C","sources":["webpack://webpack/./src/pages/shop/Shop.tsx"],"sourcesContent":["import { jsx as _jsx } from \"react/jsx-runtime\";\nexport default function Shop() {\n    return (_jsx(\"h1\", { children: \"shop\" }));\n}\n"],"names":["Shop","children"],"sourceRoot":""}
