@@ -59,14 +59,30 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
         }]
     }
 
+    const babelLoader = {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+            loader: "babel-loader",
+            options: {
+                presets: [
+                    '@babel/preset-env',
+                    "@babel/preset-typescript",
+                    ["@babel/preset-react",
+                        {
+                            runtime: isDev ? 'automatic' : 'classic'
+                        }
+                    ]
+                ]
+            }
+        }
+    }
+
     return [
         assetLoader,
         cssLoader,
         tsLoader,
+        // babelLoader,
         svgrLoader
     ]
-}
-
-function ReactRefreshTypescript() {
-    throw new Error("Function not implemented.");
 }

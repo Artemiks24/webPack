@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebpack=self.webpackChunkwebpack||[]).push([[348],{348:(e,c,s)=>{s.r(c),s.d(c,{default:()=>a});var u=s(624);function a(){return(0,u.jsx)("h1",{children:"shop"})}s(504)}}]);
+//# sourceMappingURL=348.d27df297b666f5114d33.js.map
