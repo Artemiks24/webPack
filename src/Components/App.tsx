@@ -5,10 +5,18 @@ import Calendar from '@/assets/calendar.svg'
 
 export const App = () => {
 
+    function todo () {
+        todo2()
+    }
+
+    function todo2 () {
+        throw new Error
+    }
+
     const [count, setCount] = useState<number>(0)
 
     const handleClick = () => {
-        setCount((prev => prev + 1))
+        todo()
     }
     return (
         <>
